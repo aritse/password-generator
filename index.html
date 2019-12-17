@@ -6,6 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Password Generator</title>
+    <style>
+        * {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: #d3d3d31a;
+        }
+
+        div {
+            background-color: white;
+            margin: auto;
+            display: block;
+            width: 50%;
+            border-radius: 5px;
+            padding: 30px;
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        hr {
+            border-color: #d3d3d31a;
+            margin: auto;
+        }
+
+        textarea {
+            border: 2px dashed #d3d3d3;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 100px;
+        }
+
+        textarea+hr {
+            margin-bottom: 20px;
+        }
+
+        button {
+            border-radius: 20px;
+            width: 30%;
+            font-size: large;
+            padding: 10px;
+            border: none;
+            color: white;
+            background-color: red;
+        }
+
+        button:disabled,
+        button[disabled] {
+            background-color: grey;
+        }
+
+        #generate {
+            position: relative;
+            left: -100px;
+        }
+
+        #copy {
+            position: relative;
+            right: -100px;
+        }
+    </style>
 </head>
 
 <body>
