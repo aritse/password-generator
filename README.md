@@ -22,4 +22,6 @@ For companies that handle large amounts of sensitive data, weak passwords can po
 GIVEN that a user needs a new, secure password WHEN prompted for password criteria, THEN a password is generated.
 
 ## Screenshot
+[Link](https://aritse.github.io/password-generator/) to the published app
+
 ![Password Generator Screenshot](screenshot.jpg)
